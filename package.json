@@ -1,0 +1,20 @@
+{
+  "name": "js-ts-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "volta": {
+    "node": "23.6.0"
+  }
+}
