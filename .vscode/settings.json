@@ -1,0 +1,21 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "sql-formatter.uppercase": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "eslint.useFlatConfig": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "eslint.options": {
+    "overrideConfigFile": "eslint.config.mjs"
+  },
+  "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll.eslint"],
+  "markdownlint.config": {
+    "MD022": false,
+    "MD024": false,
+    "MD032": false,
+    "MD033": false,
+    "MD041": false,
+    "MD045": false
+  },
+}
